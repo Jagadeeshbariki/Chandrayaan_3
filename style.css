@@ -1,0 +1,86 @@
+#header{
+    text-align: center;
+    color: rgb(0, 26, 255);
+    font-size: larger;
+    font-weight: 100;
+    background-color: rgb(61, 241, 238);
+    padding:2.5px;
+    /* display: flex;
+    justify-content: center; */
+}
+#main{
+    display: flex;
+    flex-direction: row;
+    width: 100%;
+    height: auto;
+    border: 2px solid black;
+}
+#content{
+    width: 50%;
+    background-color: lightgreen;
+    margin: 0px 2px;
+    padding: 0 5px;
+    height: 1000px;
+    overflow-y: auto;
+
+}
+.side{
+    width: 25%;
+    overflow-x: auto;
+    background-color: orange;
+    margin: 0px 2px;
+    padding: 0 5px;
+}
+
+.col1{
+    width: 125px;
+    height: 55px;
+}
+.col2{
+    width: 200pxx;
+}
+
+.isro_s{
+    border: 2px double blue;
+    margin: 0 10%;
+}
+
+ul li a{
+    text-decoration: none;
+    color: rgb(10, 10, 10);
+}
+
+ul li a:hover{
+    text-decoration: underline;
+    color: blue;
+}
+/* Styling headlines */
+.head_s{
+    background-color: rgb(255, 5, 5);
+    color: rgb(1, 249, 1);
+}
+
+.headM{
+    text-align: center;
+    color: rgba(255, 1, 179, 0.995);
+}
+
+/* Chandrayaan gallary */
+.gallary{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: center;
+    background-color: lightcoral;
+    padding: 5px 0;
+}
+
+.I_gallary{
+    margin: 1%;
+}
+
+.head_g{
+    text-align: center;
+    color: rgb(255, 0, 43);
+    background-color: lightblue;
+}
