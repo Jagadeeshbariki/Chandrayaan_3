@@ -1,12 +1,20 @@
 #header{
     text-align: center;
     color: rgb(0, 26, 255);
-    font-size: larger;
-    font-weight: 100;
+    font-size: 250%;
+    font-weight: bolder;
     background-color: rgb(61, 241, 238);
     padding:2.5px;
     /* display: flex;
     justify-content: center; */
+
+   
+}
+
+.imageH{
+    height: 12.5%;
+    width: 12.5%;
+    border-radius: 50%;
 }
 #main{
     display: flex;
@@ -83,4 +91,120 @@ ul li a:hover{
     text-align: center;
     color: rgb(255, 0, 43);
     background-color: lightblue;
+}
+
+iframe{
+    width: 526px;
+    height: 320px;
+}
+
+
+@media (min-width: 320px) and (max-width: 500px) {
+    #header{
+        text-align: center;
+        font-size: 90%;
+        color: rgb(0, 42, 255);
+       font-weight: bolder;
+        background-color: rgb(61, 241, 241);
+        padding:0.5px;
+    
+    }
+    #main{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        border: 2px solid black;
+        align-items: center;
+        
+    }
+
+    .side{
+        width: 90%;
+        height: auto;
+        background-color: orange;
+        margin: 0px 2px;
+        padding: 0 5px;
+        
+    }
+    #content{
+        width: 90%;
+        background-color: lightgreen;
+        margin: 0px 2px;
+        padding: 0 5px;
+        height: auto;
+        /* overflow-y: auto; */
+    
+    }
+
+    iframe{
+        width: 95%;
+        height: 250px;
+        text-align: center;
+    }
+}
+
+@media (min-width:500px ) and (max-width: 800px){
+    #header{
+        text-align: center;
+        font-size: 110%;
+        color: rgb(17, 0, 255);
+        font-weight: bolder;
+        background-color: rgb(61, 241, 241);
+        padding:0.5px;
+    
+    }
+
+    #main{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+        height: auto;
+        border: 2px solid black;
+    }
+    .side{
+        width: 90%;
+        height: auto;
+        background-color: orange;
+        margin: 0px 2px;
+        padding: 0 5px;
+    }
+
+    #content{
+        width: 90%;
+        background-color: lightgreen;
+        margin: 0px 2px;
+        padding: 0 5px;
+        height: auto;
+        /* overflow-y: auto; */
+    
+    }
+
+    iframe{
+        width: 490px;
+        height: 320px;
+    }
+}
+
+@media (min-width:800px ) and (max-width: 1000px){
+    #header{
+        text-align: center;
+        font-size: 150%;
+        color: rgb(0, 13, 255);
+        font-weight: bolder;
+        background-color: rgb(61, 241, 241);
+        padding:0.5px;
+    
+    }
+}
+@media (min-width: 1200px){
+    #header{
+        text-align: center;
+        font-size: 250%;
+        color: rgb(25, 0, 255);
+        font-weight: bolder;
+        background-color: rgb(61, 241, 241);
+        padding:0.5px;
+    
+    }
 }
